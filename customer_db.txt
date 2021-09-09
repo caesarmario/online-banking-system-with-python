@@ -1,0 +1,4 @@
+c001,Caesar,Palm City,912398791,zxc123,500
+c002,Hasan,Night City,878912312,zxc123,500
+c003,Nico,Green City,8172312,zxc345,200
+c004,qweq,qweq,1897238,asd123,200

@@ -1,0 +1,10 @@
+c001,500,Deposit
+c002,500,Deposit
+c002,500,Deposit
+c002,300,Deposit
+c002,-500,Withdrawal
+c002,-200,Withdrawal
+c003,200,Deposit
+c002,200,Deposit
+c002,-200,Withdrawal
+c004,200,Deposit
