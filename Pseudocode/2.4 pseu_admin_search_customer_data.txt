@@ -1,0 +1,29 @@
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_
+
+#Pseudocode for admin_search_customer_data
+Begin
+	Declare customer_id,customer_file,line,search_customer
+	Display "\nYou choose '2. Search Customer Data'"
+	Display "----------------------------------"
+	Display "> Enter customer ID: "
+	Read customer_id
+	customer_file = open("customer_db.txt","r")
+	Read customer_file
+	LOOP line FROM 1 TO line.customer_file STEP 1
+		search_customer = line.strip().split(",")
+		if (customer_id == search_customer[0])
+			Display "===== DATA FOUND ====="
+			Display "ID\t:"+search_customer[0]+"\nName\t:"+search_customer[1]+
+                  "\nAddress\t:"+search_customer[2]+"\nPhone Number\t:"+search_customer[3]"
+			Display "--- RETURN TO ADMIN MENU ---\n"
+			admin_menu()								#go to admin_menu
+		End if
+	End Loop
+	Display "!!! DATA NOT FOUND ! !!!"
+	Display "--- RETURN TO ADMIN MENU ---\n"
+	admin_menu()										#go to admin_menu
+End
+
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_

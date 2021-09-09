@@ -1,0 +1,28 @@
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_
+
+#Pseudocode for main menu
+Begin
+	Declare opt_main_menu
+	Display "**** WELCOME TO APU's ONLINE BANKING SYSTEM ****\n"
+	Display ">> MAIN MENU"
+	Display "1. Admin\n2. Customer\n3. Exit"
+	Display "> Please select your login as (1/2/3): "
+	Read opt_main_menu
+	while (opt_main_menu !='4')
+		if (opt_main_menu=='1')
+			admin_login()										#go to admin_login
+		else if (opt_main_menu=='2')
+			customer_login()									#go to customer_login
+		else if (opt_main_menu=='3')
+			quit()												#to quit/kill the running program
+		else
+			Display("!!! Invalid Option! Please read the option carefully! !!!\n")
+		end if
+		Display "> Please select your login as (1/2/3): "
+		Read opt_main_menu
+	end loop
+END
+
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_

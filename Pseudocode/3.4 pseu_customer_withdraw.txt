@@ -1,0 +1,34 @@
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_
+
+#Pseudocode for customer_withdraw
+Begin
+	Declare withdrawal_id,withdrawal_balance,withdrawal_pass,customer_file,
+			transaction_file,cust_withdrawal,line
+	Display "\nYou choose '2. Withdrawal'"
+	Display "----------------------------------"
+	Display "> Enter your Customer ID: "
+	Read withdrawal_id
+	Display "> Enter the BALANCE to be withdraw: "
+	Read withdrawal_balance
+	Display "> Enter your Password: "
+	Read withdrawal_pass
+	customer_file = open("customer_db.txt","r")
+	Read customer_file
+	transaction_file = open("transaction_db.txt","a")
+	Read transaction_file
+	LOOP line FROM 1 TO line.customer_file STEP 1
+		cust_withdrawal = line.strip().split(",")
+		if(withdrawal_id == cust_withdrawal[0] and withdrawal_pass == cust_withdrawal[4])
+			transaction_file.write(withdrawal_id+",-"+withdrawal_balance+",withdrawal\n")
+            transaction_file.close()
+			Display "*** WITHDRAWAL SUCCESS! ***"
+			Display "--- Return to Customer Menu ---\n"
+			customer_menu()										#go back to customer_menu
+	Display "!!! You enter wrong ID or Password !!!"
+	Display "--- Return to Customer Menu ---\n\n"
+	customer_menu()												#go back to customer_menu
+End
+
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_

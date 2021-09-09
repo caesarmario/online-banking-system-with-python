@@ -1,0 +1,30 @@
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_
+
+#Pseudocode for customer_menu
+Begin
+	Declare opt_customer_menu
+	Display ">> Customer MENU:\n"
+	Display "1. Deposit\n2. Withdrawal\n3. View Transaction\n4. Logout"
+	Display "> Please select your option (1/2/3/4): "
+	Read opt_customer_menu
+	while (opt_customer_menu !='4')
+		if (opt_customer_menu=='1')
+			customer_deposit()										#go to customer_deposit
+		else if (opt_customer_menu=='2')
+			customer_withdraw()										#go to customer_withdraw
+		else if (opt_customer_menu=='3')
+			customer_view()											#go to customer_view
+		else if (opt_customer_menu=='4')
+			Display "*** Good bye! Have a nice day! ***\n\n"
+			main_menu()												#go back to main_menu
+		else
+			Display("!!! Invalid Option! Please read the option carefully! !!!\n")
+		end if
+		Display "> Please select your option (1/2/3/4): "
+		Read opt_customer_menu
+	end loop
+End
+
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_

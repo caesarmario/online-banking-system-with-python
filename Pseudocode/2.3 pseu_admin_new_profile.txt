@@ -1,0 +1,37 @@
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_
+
+#Pseudocode for admin_menu_new_profile
+Begin
+	Declare customer_file,transaction_file,new_customer_id,new_customer_name
+			new_customer_address,new_customer_phone,new_customer_pass,new_customer_balance
+	customer_file = open("customer_db.txt","a")
+	Read customer_file
+	transaction_file = open("transaction_db.txt","a")
+    Read transaction_file
+	Display "\nYou choose '1. Create NEW Profile'"
+	Display "----------------------------------"
+	Display "> Enter new customer ID: "
+	Read new_customer_id
+	Display "> Enter new customer NAME: "
+	Read new_customer_name
+	Display "> Enter new customer ADDRESS: "
+	Read new_customer_address
+	Display "> Enter new customer PHONE: "
+	Read new_customer_phone
+	Display "> Enter new customer PASSWORD: "
+	Read new_customer_pass
+	Display "> Enter BALANCE for new customer: "
+	Read new_customer_balance
+	customer_file.write(new_customer_id+","+new_customer_name+","+new_customer_address+","
+                        +new_customer_phone+","+new_customer_pass+","+new_customer_balance+"\n")
+	customer_file.close()
+	transaction_file.write(new_customer_id+","+new_customer_balance+",Deposit\n")
+    transaction_file.close()
+	Display "*** NEW ACCOUNT CREATED! ***"
+	Display "--- RETURN TO ADMIN MENU ---\n
+	admin_menu()									#go to admin_menu
+End
+
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_

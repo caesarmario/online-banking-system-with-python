@@ -1,0 +1,27 @@
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_
+
+#Pseudocode for customer_login
+Begin
+	Declare customer_id,customer_pass,customer_file,login_customer,line
+	Display "\n\n*** WELCOME Customer! Please enter your login! ***"
+	Display "> Enter your Customer ID: "
+	Read customer_id
+	Display "> Enter your Password: "
+	Read customer_pass
+	customer_file = open("customer_db.txt","r")
+	Read customer_file
+	LOOP line FROM 1 TO line.customer_file STEP 1
+		login_customer = line.strip().split(",")
+		if (customer_id == login_customer[0] AND customer_pass == login_customer[4])
+			Display "\n\n=== WELCOME, ",login_customer[1]," ==="
+			customer_menu()								#go to customer_menu
+		End if
+	End Loop
+	Display "!!! You enter wrong ID or Password !!!"
+	Display "--- Return to Customer Login ---"
+	customer_login()									#repeat customer_login process
+End
+
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_

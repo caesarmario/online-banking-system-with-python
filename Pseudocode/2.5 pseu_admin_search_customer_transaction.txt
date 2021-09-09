@@ -1,0 +1,27 @@
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_
+
+#Pseudocode for admin_search_customer_transaction
+Begin
+	Declare admin_view_id,transaction_file,line,current_balance=0,view_transaction_file
+	Display "\nYou choose '3. Search Customer Transaction'"
+	Display "----------------------------------"
+	Display "> Enter customer ID: "
+	Read admin_view_id
+	transaction_file = open("transaction_db.txt","r")
+	Read transaction_file
+	Display "\n=== Transaction History ===\n"
+	LOOP line FROM 1 TO line.transaction_file STEP 1
+		view_transaction_file = line.strip().split(",")
+		if (admin_view_id == view_transaction_file[0])
+			current_balance=int(view_transaction_file[1])+current_balance
+			Display view_transaction_file[2]+"\t\t"+view_transaction_file[1]
+		End if
+	End Loop
+	Display ">> Current Balance: ",current_balance
+	Display "--- Return to Admin Menu ---\n\n"
+	admin_menu()										#go to admin_menu
+End
+
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_

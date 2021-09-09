@@ -1,0 +1,31 @@
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_
+
+#Pseudocode for admin_menu
+Begin
+	Declare opt_admin_menu
+	Display "\n>> Admin MENU:"
+	Display "1. Create NEW Profile\n2. Search Customer Data
+			\n3. Search Customer Transaction\n4. Log Out"
+	Display "> Please select your option (1/2/3/4): "
+	Read opt_admin_menu
+	while (opt_admin_menu !='4')
+		if (opt_admin_menu=='1')
+			admin_new_profile()						#go to admin_new_profile
+		else if (opt_admin_menu=='2')
+			admin_search_customer_data()			#go to admin_search_customer_data
+		else if (opt_admin_menu=='3')
+			admin_search_customer_transaction()		#go to admin_search_customer_transaction
+		else if (opt_admin_menu=='4')
+			Display "=== GOOD BYE, SEE YOU AGAIN! ===\n\n"
+			main_menu()								#go back to main_menu
+		else
+			Display("!!! Invalid Option! Please read the option carefully! !!!\n")
+		end if
+		Display "> Please select your option (1/2/3): "
+		Read opt_admin_menu
+	end loop
+End
+
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_

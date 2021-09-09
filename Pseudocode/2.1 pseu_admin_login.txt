@@ -1,0 +1,27 @@
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_
+
+#Pseudocode for admin_login
+Begin
+	Declare admin_id,admin_pass,admin_file,login_admin,line
+	Display "\n+++ Admin Login Menu +++"
+	Display "> Enter your Admin ID: "
+	Read admin_id
+	Display "> Enter your Password: "
+	Read admin_pass
+	admin_file = open("admin_db.txt","r")
+	Read admin_file
+	LOOP line FROM 1 TO line.admin_file STEP 1
+		login_admin=line.strip().split(",")
+		if (admin_ID == login_admin[0] AND admin_pass == login_admin[2])
+			Display "\n\n=== WELCOME",login_admin[1]," ===")
+			admin_menu()				#go to admin_menu
+		End if
+	End Loop
+	Display "!!! You enter wrong ID or Password !!!")
+	Display "--- Return to Admin Login ---\n\n")
+	admin_login()						#repeat admin_login process
+End
+
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_

@@ -1,0 +1,34 @@
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_
+
+#Pseudocode for customer_deposit
+Begin
+	Declare deposit_id,deposit_balance,deposit_pass,customer_file,
+			transaction_file,cust_deposit,line
+	Display "\nYou choose '1. Deposit'"
+	Display "----------------------------------"
+	Display "> Enter your Customer ID: "
+	Read deposit_id
+	Display "> Enter the BALANCE to be deposit: "
+	Read deposit_balance
+	Display "> Enter your Password: "
+	Read deposit_pass
+	customer_file = open("customer_db.txt","r")
+	Read customer_file
+	transaction_file = open("transaction_db.txt","a")
+	Read transaction_file
+	LOOP line FROM 1 TO line.customer_file STEP 1
+		cust_deposit = line.strip().split(",")
+		if(deposit_id == cust_deposit[0] and deposit_pass == cust_deposit[4])
+			transaction_file.write(deposit_id+","+deposit_balance+",Deposit\n")
+            transaction_file.close()
+			Display "*** BALANCE SUCSSESFULLY DEPOSIT! ***"
+			Display "--- Return to Customer Menu ---\n"
+			customer_menu()										#go back to customer_menu
+	Display "!!! You enter wrong ID or Password !!!"
+	Display "--- Return to Customer Menu ---\n\n"
+	customer_menu()												#go back to customer_menu
+End
+
+# Simple Online Banking System by caesarmario
+# More about myself: https://linktr.ee/caesarmario_
