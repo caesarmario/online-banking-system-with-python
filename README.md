@@ -8,8 +8,8 @@
 
 ## 📃 Table of Contents:
   - [About Project](#about-project)
-      - [GitHub Actions 🤖](#github-actions-)
-  - [Tools](#tools)
+      <!-- - [GitHub Actions 🤖](#github-actions-) -->
+  <!-- - [Tools](#tools) -->
 
 
 ## 🖋 About Project:
