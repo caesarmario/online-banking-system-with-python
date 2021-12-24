@@ -11,8 +11,8 @@
 </p>
 
 ## 📃 Table of Contents:
-  - [About Project](#about-project)
-  - [System Design](#system-design)
+  - [About Project](#-about-project)
+  - [System Design](#-system-design)
 
 
 ## 🖋 About Project:
