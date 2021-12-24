@@ -55,8 +55,32 @@
 <br><br>
 
 ## 📷 Menu Screenshot:
-👉
+### 🏠 Main Menu: <br>
+![](https://raw.githubusercontent.com/caesarmario/simple-online-banking-system/main/Screenshot/1.0_Main%20Menu.png)
+  
+### 👨‍💼 Admin: <br>
+#### ▶ Admin Login
+![](https://raw.githubusercontent.com/caesarmario/simple-online-banking-system/main/Screenshot/2.0_Admin%20Login.png)
+#### ▶ Admin Menu
+![](https://raw.githubusercontent.com/caesarmario/simple-online-banking-system/main/Screenshot/2.1_Admin%20Menu.png)
+#### ▶ Admin Create New
+![](https://raw.githubusercontent.com/caesarmario/simple-online-banking-system/main/Screenshot/2.2_Admin%20Create%20New.png)
+#### ▶ Admin Search Customer
+![](https://raw.githubusercontent.com/caesarmario/simple-online-banking-system/main/Screenshot/2.3_Admin%20Search%20Customer.png)
+#### ▶ Admin Search Transaction
+![](https://raw.githubusercontent.com/caesarmario/simple-online-banking-system/main/Screenshot/2.4_Admin%20Search%20Transaction.png)
 
+### 🙎‍♂️ Customer: <br>
+#### ▶ Customer Login
+![](https://raw.githubusercontent.com/caesarmario/simple-online-banking-system/main/Screenshot/3.0_Customer%20Login.png)
+#### ▶ Customer Menu
+![](https://raw.githubusercontent.com/caesarmario/simple-online-banking-system/main/Screenshot/3.1_Customer%20Menu.png)
+#### ▶ Customer Deposit
+![](https://raw.githubusercontent.com/caesarmario/simple-online-banking-system/main/Screenshot/3.2_Customer%20Deposit.png)
+#### ▶ Customer Withdrawal
+![](https://raw.githubusercontent.com/caesarmario/simple-online-banking-system/main/Screenshot/3.3_Customer%20Withdrawal.png)
+#### ▶ Customer View
+![](https://raw.githubusercontent.com/caesarmario/simple-online-banking-system/main/Screenshot/3.4_Customer%20View.png)
 <br><br>
 
 
