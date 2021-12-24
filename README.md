@@ -9,14 +9,16 @@
     <img src="https://img.shields.io/badge/Follow%20My%20Other%20Works-019875?style=flat&labelColor=019875&link=https:/linktr.ee/caesarmario_" alt"Linktree"/>
   </a>
 </p>
+<br>
 
 ## 📃 Table of Contents:
   - [About Project](#-about-project)
   - [System Design](#-system-design)
-
+<br>
 
 ## 🖋 About Project:
-👉 A simple online banking system built using Python. This system allows the customer and banking staff/manager to manage all transactions easily. The primary purpose of this system is to simulate customer’s transaction management for Bank to maintain the detail of each transaction/record. <br><br>
+👉 A simple online banking system built using Python. This system allows the customer and banking staff/manager to manage all transactions easily. <br>
+👉 The primary purpose of this system is to simulate customer’s transaction management for Bank to maintain the detail of each transaction/record.<br><br>
 👉 There are 2 users for this system:
 1. **Admin**
     - Can **create new Customer’s profile** and **provide them login id and password** to access the system.
@@ -28,7 +30,7 @@
     - Can **view their own transactions**.
 
 > Note: **Every user needs to sign in to access the system. All the data must be stored in text (*.txt) files.**
-
+<br>
 
 ## 💻 System Design:
 👉 In this simple online banking system, there are 11 different menus, namely:
@@ -47,12 +49,20 @@
     - Customer View
 
 👉 All the **psudeocode** for each menu are available [here](https://github.com/caesarmario/simple-online-banking-system/tree/main/Pseudocode) <br>
-👉 All the **flowchart** for each menu are available [here](https://github.com/caesarmario/simple-online-banking-system/tree/main/Flowchart)
+👉 All the **flowchart** for each menu are available [here](https://github.com/caesarmario/simple-online-banking-system/tree/main/Flowchart) <br><br>
+👉 There is also a simple security verification in this system where the customer/admin is asked to enter a password and user id. <br>
+👉 Suppose **the user id/password is not the same as the database (txt file)**, **the system will ask the user to enter the user id/password again until it is correct**.
+<br><br>
+
+## 📷 Menu Screenshot:
+👉
+
+<br><br>
 
 
 ## 🙌 Support me!
 
-If you find this project useful, please ⭐ this repository 😆!
+👉 If you find this project useful, **please ⭐ this repository 😆**!
 
 ---
 
