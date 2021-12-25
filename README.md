@@ -14,6 +14,10 @@
 ## 📃 Table of Contents:
   - [About Project](#-about-project)
   - [System Design](#-system-design)
+  - [Screenshot](#-screenshot)
+      - [Main Menu](#-main-menu)
+      - [Admin](#-admin-:)
+      - [Customer](#-customer)
 <br>
 
 ## 🖋 About Project:
@@ -54,7 +58,7 @@
 👉 Suppose **the user id/password is not the same as the database (txt file)**, **the system will ask the user to enter the user id/password again until it is correct**.
 <br><br>
 
-## 📷 Menu Screenshot:
+## 📷 Screenshot:
 ### 🏠 Main Menu: <br>
 ![](https://raw.githubusercontent.com/caesarmario/simple-online-banking-system/main/Screenshot/1.0_Main%20Menu.png)
   
