@@ -16,7 +16,7 @@
   - [System Design](#-system-design)
   - [Screenshot](#-screenshot)
       - [Main Menu](#-main-menu)
-      - [Admin](#-admin-:)
+      - [Admin](#-admin)
       - [Customer](#-customer)
 <br>
 
