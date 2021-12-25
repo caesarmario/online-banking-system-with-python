@@ -17,7 +17,7 @@
   - [Screenshot](#-screenshot)
       - [Main Menu](#-main-menu-)
       - [Admin](#-admin-)
-      - [Customer](%EF%B8%8F-customer-)
+      - [Customer](#%EF%B8%8F-customer-)
 <br>
 
 ## 🖋 About Project:
