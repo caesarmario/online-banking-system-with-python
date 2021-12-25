@@ -15,9 +15,9 @@
   - [About Project](#-about-project)
   - [System Design](#-system-design)
   - [Screenshot](#-screenshot)
-      - [Main Menu](#-main-menu)
-      - [Admin](#-admin)
-      - [Customer](#-customer)
+      - [Main Menu](#-main-menu-)
+      - [Admin](#-admin-)
+      - [Customer](%EF%B8%8F-customer-)
 <br>
 
 ## 🖋 About Project:
