@@ -33,8 +33,8 @@
     - Can **do the transactions** like Deposit, Withdrawal.
     - Can **view their own transactions**.
 
-> Note: **Every user needs to sign in to access the system. All the data must be stored in text (.txt) files.**
-<br><br>
+> Note: **Every user needs to sign in to access the system. All the data must be stored in text (.txt) files.**<br>
+
 [![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-blue)](#-table-of-contents)
 <br><br>
 
