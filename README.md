@@ -33,8 +33,10 @@
     - Can **do the transactions** like Deposit, Withdrawal.
     - Can **view their own transactions**.
 
-> Note: **Every user needs to sign in to access the system. All the data must be stored in text (*.txt) files.**
-<br>
+> Note: **Every user needs to sign in to access the system. All the data must be stored in text (.txt) files.**
+<br><br>
+[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-blue)](#-table-of-contents)
+<br><br>
 
 ## 💻 System Design:
 👉 In this simple online banking system, there are 11 different menus, namely:
@@ -56,6 +58,8 @@
 👉 All the **flowchart** for each menu are available [here](https://github.com/caesarmario/simple-online-banking-system/tree/main/Flowchart) <br><br>
 👉 There is also a simple security verification in this system where the customer/admin is asked to enter a password and user id. <br>
 👉 Suppose **the user id/password is not the same as the database (txt file)**, **the system will ask the user to enter the user id/password again until it is correct**.
+<br><br>
+[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-blue)](#-table-of-contents)
 <br><br>
 
 ## 📷 Screenshot:
@@ -85,6 +89,8 @@
 ![](https://raw.githubusercontent.com/caesarmario/simple-online-banking-system/main/Screenshot/3.3_Customer%20Withdrawal.png)
 #### ▶ Customer View
 ![](https://raw.githubusercontent.com/caesarmario/simple-online-banking-system/main/Screenshot/3.4_Customer%20View.png)
+<br><br>
+[![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-blue)](#-table-of-contents)
 <br><br>
 
 
