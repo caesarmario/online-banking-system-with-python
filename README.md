@@ -1,4 +1,4 @@
-<h1 align="center">🏦 Simple Online Banking System 🏦 </h1>
+<h1 align="center">🏦 Online Banking System 🏦 </h1>
 <p align="center">using <b>Python 🐍</b></p><br>
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
@@ -21,7 +21,7 @@
 <br>
 
 ## 🖋 About Project:
-👉 A simple online banking system built using Python. This system allows the customer and banking staff/manager to manage all transactions easily. <br>
+👉 An online banking system built using Python. This system allows the customer and banking staff/manager to manage all transactions easily. <br>
 👉 The primary purpose of this system is to simulate customer’s transaction management for Bank to maintain the detail of each transaction/record.<br><br>
 👉 There are 2 users for this system:
 1. **Admin**
@@ -39,7 +39,7 @@
 <br><br>
 
 ## 💻 System Design:
-👉 In this simple online banking system, there are 11 different menus, namely:
+👉 In this online banking system, there are 11 different menus, namely:
 1. **Main Menu**
 2. **Admin**
     - Admin Login
